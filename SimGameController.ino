@@ -1,4 +1,4 @@
-//	Test de code
+//	Pc sim game controller
 //	Johny Pineault johny.pineault@gmail.com
 //
 //  -Code now hosted on github
