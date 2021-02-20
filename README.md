@@ -1,3 +1,3 @@
 # VsCodeTest
 
-well you are in dev !
+well you are in the new devlopment of my sim game controller !
