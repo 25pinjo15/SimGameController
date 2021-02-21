@@ -225,7 +225,7 @@ void loop()
 	currentTime = millis();			// Use for common timming thing
 	
 	// Call the button routine
-	buttonRoutine();
+	menuButtonRoutine();
 
 	// Menu selection 
 		// Read Raw from input from a pot and map it to the number of menu
@@ -261,9 +261,16 @@ void loop()
 
 // ---- LOOP END ----
 
+// ==== GAME BUTTON MANAGEMENT START ====
 
-// ==== BUTTON MANAGEMENT START ====
-void buttonRoutine() {
+void gameButtonRoutine() {
+	// Here will be the button for the game input
+}
+
+// ---- GAME BUTTON MANAGEMENT END ----
+
+// ==== MENU BUTTON MANAGEMENT START ====
+void menuButtonRoutine() {
 	// Routine to state all button, with debouce
 	// NOTE: This scan all the menu button, it use a commmon timer for the debouce . read raw data and change the button last
 	// state to the proper real state if the timer is met (debouce time)
@@ -360,7 +367,7 @@ void buttonRoutine() {
 
 
 }
-// ---- BUTTON MANAGEMENT END ----
+// ---- MENU BUTTON MANAGEMENT END ----
 
 // ==== SCREEN UPDATE ======== 
 // All the menu page are listed as function
